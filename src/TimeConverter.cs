@@ -14,7 +14,7 @@ public class TimeConverter
 
     public Date ConvertPassedMillisecondsToDate(ulong milliseconds)
     {
-        var date = new Date(year: 1970);
+        var date = new Date(startingYear);
         date.AddMilliseconds(milliseconds);
 
         return date;
