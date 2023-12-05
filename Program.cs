@@ -2,8 +2,6 @@
 
 var millisecondsSince1970ToDateConverter = new TimeConverter(startingYear: 1970);
 
-// 1619521506247
-
 while (true)
 {
     try

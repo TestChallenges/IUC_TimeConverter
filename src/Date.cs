@@ -46,7 +46,7 @@ public class Date
 
         if (totalMonths > Constants.MONTHS_IN_YEAR)
         {
-            month = (totalMonths % Constants.MONTHS_IN_YEAR);
+            month = totalMonths % Constants.MONTHS_IN_YEAR;
             yearsToAdd++;
         }
         else

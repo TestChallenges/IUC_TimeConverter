@@ -5,11 +5,6 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConverter", "TimeConverter.csproj", "{9D66EE0C-12B9-4AFA-8BFB-732A3A5CC57F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E47B662A-A691-43A4-BB10-749E791671F8}"
-	ProjectSection(SolutionItems) = preProject
-		TimeConverter.cs = TimeConverter.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
