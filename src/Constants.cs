@@ -2,7 +2,7 @@
 
 public static class Constants
 {
-    public static readonly uint MILLISECOND_IN_SECONDS = 1000;
+    public static readonly uint MILLISECONDS_IN_SECOND = 1000;
     public static readonly uint SECONDS_IN_MINUTE = 60;
     public static readonly uint MINUTES_IN_HOUR = 60;
     public static readonly uint HOURS_IN_DAY = 24;

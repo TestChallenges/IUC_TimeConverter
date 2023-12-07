@@ -180,13 +180,13 @@ public class Date
 
     public Date AddMilliseconds(ulong millisecondsToAdd)
     {
-        var secondsToAdd = millisecondsToAdd / Constants.MILLISECOND_IN_SECONDS;
-        millisecondsToAdd %= Constants.MILLISECOND_IN_SECONDS;
+        var secondsToAdd = millisecondsToAdd / Constants.MILLISECONDS_IN_SECOND;
+        millisecondsToAdd %= Constants.MILLISECONDS_IN_SECOND;
 
         var totalMilliseconds = milliseconds + millisecondsToAdd;
-        if (totalMilliseconds > Constants.MILLISECOND_IN_SECONDS)
+        if (totalMilliseconds > Constants.MILLISECONDS_IN_SECOND)
         {
-            milliseconds = totalMilliseconds % Constants.MILLISECOND_IN_SECONDS;
+            milliseconds = totalMilliseconds % Constants.MILLISECONDS_IN_SECOND;
             secondsToAdd++;
         }
         else
