@@ -220,7 +220,7 @@ public class Date
             : Constants.DAYS_IN_MONTHS_OF_USUAL_YEAR[monthIndex];
     }
 
-    private bool IsLeapYear()
+    public bool IsLeapYear()
     {
         bool result = year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
         return result;

@@ -13,10 +13,13 @@ while (true)
             millisecondsNumber
         );
 
-        Console.WriteLine($"{computedDate}\n");
+        var isLeapYear = computedDate.IsLeapYear();
+        Console.WriteLine(
+            $"The date is {computedDate}\n" + $"Year is {(isLeapYear ? "" : "not ")}leap\n"
+        );
     }
     catch (Exception e)
     {
-        Console.WriteLine(e.Message);
+        Console.WriteLine($"{e.Message}\n");
     }
 }
